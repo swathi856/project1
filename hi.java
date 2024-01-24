@@ -1,10 +1,15 @@
+import java.util.Scanner;
 class j
 {
   public static void main(String args[])
   {
-    int x=5;
-    int y=7;
-    int z;
+
+    int x,y,z;
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter a number : ");
+    x=s.nextInt();
+    System.out.println("Enter a number : ");
+    y=s.nextInt();
     System.out.println("after swaping");
     z=x;//z=5
     x=y;//x=7
