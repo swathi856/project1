@@ -1,4 +1,4 @@
-class jm
+class js
 {
  public static void main(String args[])
   {
